@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commerce360 - Solution SaaS Commerce | iNV LAB</title>
+    <meta name="description" content="Commerce360 révolutionne le commerce en Afrique avec des solutions SaaS intégrées pour les entreprises et commerçants.">
+    <link rel="icon" href="logo.jpg" type="image/jpg">
+    <link rel="apple-touch-icon" href="logo.jpg">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="nav-container">
+                <div class="logo">
+                    <div class="logo-container">
+                        <img class="logo-image" src="logo.jpg" alt="iNV LAB Logo">
+                        <div class="logo-text">iNV LAB</div>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle active">Solutions <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="agriculture-saas.html">Agriculture</a></li>
+                            <li><a href="sante-saas.html">Santé</a></li>
+                            <li><a href="commerce-saas.html" class="active">Commerce</a></li>
+                            <li><a href="education-saas.html">Éducation</a></li>
+                            <li><a href="politique-saas.html">Politique</a></li>
+                            <li><a href="logistique-saas.html">Logistique</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="platform.html">Plateforme</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars" id="menu-icon"></i>
+                </div>
+            </nav>
+        </div>
+        <div class="overlay" id="overlay"></div>
+    </header>
+
+    <!-- Hero Section Commerce -->
+    <section class="hero" style="background: linear-gradient(135deg, var(--dark), var(--darker)); height: 60vh;">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1>Commerce360</h1>
+                <p>Plateforme SaaS complète pour révolutionner le commerce en Afrique et connecter les entreprises aux marchés mondiaux.</p>
+                <div class="hero-btns">
+                    <a href="#demo" class="btn btn-primary">Démarrer l'Essai Gratuit</a>
+                    <a href="#problems" class="btn btn-secondary">Voir l'Analyse</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analyse des Problèmes du Secteur Commerce -->
+    <section id="problems" class="about" style="background: var(--darker);">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Défis du Commerce en Afrique : Analyse Sectorielle</h2>
+                <p>Examen approfondi des obstacles structurels entravant le développement du commerce en Afrique.</p>
+            </div>
+
+            <div class="problems-analysis">
+                <!-- Problème 1 -->
+                <div class="problem-card fade-in">
+                    <div class="problem-header">
+                        <div class="problem-icon" style="background: #ff6b6b;">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <h3>Fracture Digitale et Exclusion Financière</h3>
+                    </div>
+                    <div class="problem-content">
+                        <div class="problem-stats">
+                            <div class="stat">
+                                <span class="stat-number">57%</span>
+                                <span class="stat-label">Africains sans compte bancaire</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">3,5x</span>
+                                <span class="stat-label">Coût transactions vs pays développés</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">85%</span>
+                                <span class="stat-label">Transactions commerciales en cash</span>
+                            </div>
+                        </div>
+                        <div class="problem-details">
+                            <h4>✅ Réalités Vérifiables :</h4>
+                            <ul>
+                                <li><strong>Banque Mondiale</strong> : 57% de la population africaine exclue du système bancaire formel</li>
+                                <li><strong>FMI</strong> : Coût moyen des transactions transfrontalières : 3,5x plus élevé qu'en Europe</li>
+                                <li><strong>BCEAO</strong> : 85% des transactions commerciales se font encore en espèces au Cameroun</li>
+                                <li><strong>GSMA</strong> : Seulement 28% de pénétration des smartphones en Afrique rurale</li>
+                            </ul>
+
+                            <h4>⚠️ Conséquences si le Statu Quo Persiste :</h4>
+                            <ul>
+                                <li><strong>Économie Souterraine</strong> : 40% du PIB africain échappe à la fiscalité</li>
+                                <li><strong>Limitation de Croissance</strong> : PME incapables d'accéder au crédit pour se développer</li>
+                                <li><strong>Insécurité</strong> : Transport et stockage de cash → risques accrus de vol et corruption</li>
+                                <li><strong>Exclusion Marchés</strong> : Impossibilité de participer au commerce électronique international</li>
+                            </ul>
+
+                            <h4>🛠️ Comment Commerce360 y Remédie :</h4>
+                            <ul>
+                                <li><strong>Plateforme Multi-paiements</strong> : Intégration mobile money, crypto, cartes et cash digital</li>
+                                <li><strong>Micro-crédit Algorithmique</strong> : Scoring de crédit basé sur l'historique des transactions</li>
+                                <li><strong>Interface USSD</strong> : Accès sans smartphone ni connexion internet</li>
+                                <li><strong>Blockchain</strong> : Réduction des coûts de transaction de 70% via smart contracts</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Problème 2 -->
+                <div class="problem-card fade-in">
+                    <div class="problem-header">
+                        <div class="problem-icon" style="background: #4ecdc4;">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h3>Logistique Défaillante et Coûts Élevés</h3>
+                    </div>
+                    <div class="problem-content">
+                        <div class="problem-stats">
+                            <div class="stat">
+                                <span class="stat-number">4-6</span>
+                                <span class="stat-label">Semaines délai d'importation</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">55%</span>
+                                <span class="stat-label">Coût logistique dans le prix final</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">30%</span>
+                                <span class="stat-label">Produits endommagés pendant transport</span>
+                            </div>
+                        </div>
+                        <div class="problem-details">
+                            <h4>✅ Réalités Vérifiables :</h4>
+                            <ul>
+                                <li><strong>Banque Africaine de Développement</strong> : Délai moyen d'importation en Afrique : 4-6 semaines (vs 1 semaine en Asie)</li>
+                                <li><strong>CNUCED</strong> : Les coûts logistiques représentent 55% du prix final des produits en Afrique</li>
+                                <li><strong>Gouvernement Camerounais</strong> : 30% des produits périssables endommagés pendant le transport</li>
+                                <li><strong>World Bank Logistics Index</strong> : Classement moyen des pays africains : 140/160</li>
+                            </ul>
+
+                            <h4>⚠️ Conséquences si le Statu Quo Persiste :</h4>
+                            <ul>
+                                <li><strong>Inflation Importée</strong> : Prix des produits importés 2-3x plus élevés qu'ailleurs</li>
+                                <li><strong>Gaspillage Alimentaire</strong> : 40% de la production agricole perdue faute de chaîne du froid</li>
+                                <li><strong>Désavantage Compétitif</strong> : Industries locales incapables de concurrencer les importations</li>
+                                <li><strong>Isolement Commercial</strong> : Régions enclavées exclues des circuits économiques principaux</li>
+                            </ul>
+
+                            <h4>🛠️ Comment Commerce360 y Remédie :</h4>
+                            <ul>
+                                <li><strong>Marketplace Logistique</strong> : Mise en relation transporteurs-chargeurs en temps réel</li>
+                                <li><strong>IoT Tracking</strong> : Surveillance température/humidité pour produits sensibles</li>
+                                <li><strong>Optimisation Itinéraires</strong> : Algorithmes évitant les points de congestion et barrières</li>
+                                <li><strong>Douane Digitale</strong> : Pré-dédouanement et documentation automatisée</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Problème 3 -->
+                <div class="problem-card fade-in">
+                    <div class="problem-header">
+                        <div class="problem-icon" style="background: #45b7d1;">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Manque de Données Marchés et Analytics</h3>
+                    </div>
+                    <div class="problem-content">
+                        <div class="problem-stats">
+                            <div class="stat">
+                                <span class="stat-number">78%</span>
+                                <span class="stat-label">PME sans accès aux données marché</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">12-18</span>
+                                <span class="stat-label">Mois pour études de marché</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">65%</span>
+                                <span class="stat-label">Échec nouveaux produits</span>
+                            </div>
+                        </div>
+                        <div class="problem-details">
+                            <h4>✅ Réalités Vérifiables :</h4>
+                            <ul>
+                                <li><strong>Banque Mondiale</strong> : 78% des PME africaines prennent des décisions sans données marché fiables</li>
+                                <li><strong>McKinsey Africa</strong> : Délai moyen pour une étude de marché complète : 12-18 mois</li>
+                                <li><strong>Université de Lagos</strong> : Taux d'échec des nouveaux produits en Afrique : 65% (vs 35% global)</li>
+                                <li><strong>AFD</strong> : Coût moyen d'une étude de marché : 15% du chiffre d'affaires annuel des PME</li>
+                            </ul>
+
+                            <h4>⚠️ Conséquences si le Statu Quo Persiste :</h4>
+                            <ul>
+                                <li><strong>Décisions Aveugles</strong> : Investissements dans des produits sans demande réelle</li>
+                                <li><strong>Innovation Ralentie</strong> : Incapacité à identifier les tendances émergentes</li>
+                                <li><strong>Dépendance Importations</strong> : Méconnaissance des capacités de production locales</li>
+                                <li><strong>Échec Entrepreneurial</strong> : 60% des startups échouent dans les 2 premières années</li>
+                            </ul>
+
+                            <h4>🛠️ Comment Commerce360 y Remédie :</h4>
+                            <ul>
+                                <li><strong>Market Intelligence Platform</strong> : Données temps réel sur 15 marchés africains</li>
+                                <li><strong>IA Prédictive</strong> : Identification des tendances 6 mois avant le marché</li>
+                                <li><strong>Consumer Analytics</strong> : Comportement d'achat et préférences par région</li>
+                                <li><strong>API Ouverte</strong> : Intégration avec les systèmes existants des entreprises</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Commerce360 -->
+    <section class="solutions">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Solutions Commerce360</h2>
+                <p>Une suite complète d'outils SaaS pour adresser chaque défi identifié dans le commerce africain.</p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-card fade-in">
+                    <div class="solution-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>E-commerce Unifié</h3>
+                    <p>Plateforme de vente en ligne multi-canaux avec gestion des stocks, commandes et livraisons intégrée.</p>
+                    <ul class="feature-list">
+                        <li>Marketplace B2B et B2C intégrée</li>
+                        <li>Paiements mobiles multi-opérateurs</li>
+                        <li>Gestion des stocks en temps réel</li>
+                        <li>Interface vendeur intuitive</li>
+                    </ul>
+                </div>
+                <div class="solution-card fade-in">
+                    <div class="solution-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Business Intelligence</h3>
+                    <p>Analytics avancé avec tableaux de bord personnalisables et rapports automatiques sur les performances.</p>
+                    <ul class="feature-list">
+                        <li>Analyse des ventes en temps réel</li>
+                        <li>Prévisions de demande IA</li>
+                        <li>Benchmarking sectoriel</li>
+                        <li>Alertes opportunités marché</li>
+                    </ul>
+                </div>
+                <div class="solution-card fade-in">
+                    <div class="solution-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Réseau Commercial</h3>
+                    <p>Mise en relation acheteurs-vendeurs avec système de réputation et outils de collaboration.</p>
+                    <ul class="feature-list">
+                        <li>Annuaire d'entreprises vérifiées</li>
+                        <li>Système de notation et avis</li>
+                        <li>Outils de négociation digitale</li>
+                        <li>Contrats intelligents blockchain</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Mesurable -->
+    <section class="stats" style="background: var(--dark);">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Impact Mesurable</h2>
+                <p>Résultats concrets obtenus par nos clients dans le secteur du commerce.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card fade-in">
+                    <div class="stat-number">45%</div>
+                    <div class="stat-label">Augmentation du chiffre d'affaires</div>
+                </div>
+                <div class="stat-card fade-in">
+                    <div class="stat-number">60%</div>
+                    <div class="stat-label">Réduction des coûts logistiques</div>
+                </div>
+                <div class="stat-card fade-in">
+                    <div class="stat-number">3x</div>
+                    <div class="stat-label">Plus de marchés accessibles</div>
+                </div>
+                <div class="stat-card fade-in">
+                    <div class="stat-number">80%</div>
+                    <div class="stat-label">Gain de temps en administration</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Commerçants Satisfaits</h2>
+                <p>Découvrez comment Commerce360 transforme les entreprises commerciales en Afrique.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-text">
+                        "Commerce360 nous a permis d'étendre notre marché au-delà de Douala. En 6 mois, nous vendons maintenant dans 5 pays africains avec une gestion unifiée."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AK</div>
+                        <div class="author-info">
+                            <h4>Amara Keita</h4>
+                            <p>Directeur, Textiles Africains SA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-text">
+                        "La plateforme de paiement intégrée a révolutionné notre trésorerie. Plus de problèmes de cash, et nos transactions transfrontalières sont 3x plus rapides."
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">FS</div>
+                        <div class="author-info">
+                            <h4>Fatou Sow</h4>
+                            <p>Gérante, Epicerie Moderne Dakar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="demo" class="cta">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Prêt à Transformer Votre Commerce ?</h2>
+                <p>Rejoignez les 2 000+ commerçants et entreprises qui utilisent déjà Commerce360 pour développer leurs affaires.</p>
+                <a href="contact.html" class="btn btn-primary">Démarrer l'Essai Gratuit</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>iNV LAB</h3>
+                    <p>Votre partenaire SaaS pour la transformation digitale sectorielle.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Liens Rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="platform.html">Plateforme</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Solutions</h3>
+                    <ul class="footer-links">
+                        <li><a href="agriculture-saas.html">Agriculture</a></li>
+                        <li><a href="sante-saas.html">Santé</a></li>
+                        <li><a href="commerce-saas.html">Commerce</a></li>
+                        <li><a href="education-saas.html">Éducation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Douala, Cameroun</li>
+                        <li><i class="fas fa-envelope"></i> contact@invlab.cm</li>
+                        <li><i class="fas fa-phone"></i> +237 620 81 92 90</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 iNV LAB. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

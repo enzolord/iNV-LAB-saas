@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - iNV LAB</title>
+    <meta name="description" content="Contactez iNV LAB pour discuter de vos besoins en solutions SaaS sectorielles et demander une démonstration.">
+    <link rel="icon" href="logo.jpg" type="image/jpg">
+    <link rel="apple-touch-icon" href="logo.jpg">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="nav-container">
+                <div class="logo">
+                    <div class="logo-container">
+                        <img class="logo-image" src="logo.jpg" alt="iNV LAB Logo">
+                        <div class="logo-text">iNV LAB</div>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropdown-toggle">Solutions <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="agriculture-saas.html">Agriculture</a></li>
+                            <li><a href="sante-saas.html">Santé</a></li>
+                            <li><a href="commerce-saas.html">Commerce</a></li>
+                            <li><a href="education-saas.html">Éducation</a></li>
+                            <li><a href="politique-saas.html">Politique</a></li>
+                            <li><a href="logistique-saas.html">Logistique</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="platform.html">Plateforme</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars" id="menu-icon"></i>
+                </div>
+            </nav>
+        </div>
+        <div class="overlay" id="overlay"></div>
+    </header>
+
+    <!-- Hero Section Contact -->
+    <section class="hero" style="background: linear-gradient(135deg, var(--dark), var(--darker)); height: 60vh;">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1>Contactez-Nous</h1>
+                <p>Prêt à transformer votre secteur ? Discutons de votre projet et découvrez comment nos solutions SaaS peuvent accélérer votre croissance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulaire de Contact -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info fade-in">
+                    <h2>Travaillons Ensemble</h2>
+                    <p>Notre équipe d'experts est prête à vous accompagner dans votre transformation digitale. Remplissez le formulaire et nous vous recontacterons sous 24 heures.</p>
+                    
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Votre nom complet" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Votre adresse email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="company" name="company" placeholder="Votre entreprise">
+                        </div>
+                        <div class="form-group">
+                            <select id="sector" name="sector" required>
+                                <option value="">Sélectionnez votre secteur</option>
+                                <option value="agriculture">Agriculture</option>
+                                <option value="sante">Santé</option>
+                                <option value="commerce">Commerce</option>
+                                <option value="education">Éducation</option>
+                                <option value="politique">Politique/Gouvernement</option>
+                                <option value="logistique">Logistique</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Décrivez votre projet ou vos besoins..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i> Envoyer le Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-visual fade-in">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Adresse</h3>
+                                <p>Douala, Cameroun</p>
+                                <p>Siège social et centre de R&D</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p>contact@invlab.cm</p>
+                                <p>Support: support@invlab.cm</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Téléphone</h3>
+                                <p>+237 620 81 92 90</p>
+                                <p>Lun - Ven: 8h - 18h</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-btns">
+                        <a href="mailto:contact@invlab.cm" class="contact-btn">
+                            <i class="fas fa-envelope"></i>
+                            Envoyer un Email
+                        </a>
+                        <a href="https://wa.me/237620819290" class="contact-btn whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            WhatsApp
+                        </a>
+                        <a href="tel:+237620819290" class="contact-btn">
+                            <i class="fas fa-phone"></i>
+                            Appeler Maintenant
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carte et Localisation -->
+    <section class="platform" style="background: var(--darker); padding: 80px 0;">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Notre Localisation</h2>
+                <p>Retrouvez-nous au cœur de l'innovation technologique en Afrique.</p>
+            </div>
+            <div class="visual-element fade-in" style="height: 400px; background: var(--dark); border-radius: 20px; display: flex; align-items: center; justify-content: center;">
+                <div style="text-align: center; color: var(--primary);">
+                    <i class="fas fa-map-marked-alt" style="font-size: 4rem;"></i>
+                    <p style="margin-top: 20px; font-weight: bold;">DOUALA, CAMEROUN</p>
+                    <p style="color: #b8c2cc; margin-top: 10px;">Hub Technologique - Zone d'Innovation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="solutions">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Questions Fréquentes</h2>
+                <p>Retrouvez les réponses aux questions les plus courantes sur nos solutions SaaS.</p>
+            </div>
+            <div class="solutions-grid">
+                <div class="solution-card fade-in">
+                    <h3>Combien de temps pour implémenter une solution ?</h3>
+                    <p>L'implémentation standard prend 2 à 4 semaines selon la complexité de votre environnement et vos besoins spécifiques.</p>
+                </div>
+                <div class="solution-card fade-in">
+                    <h3>Proposez-vous des essais gratuits ?</h3>
+                    <p>Oui, nous offrons une période d'essai de 14 jours pour toutes nos solutions SaaS sectorielles.</p>
+                </div>
+                <div class="solution-card fade-in">
+                    <h3>Quel support technique fournissez-vous ?</h3>
+                    <p>Support 24/7 par email, chat et téléphone, avec un temps de réponse garanti de moins de 2 heures.</p>
+                </div>
+                <div class="solution-card fade-in">
+                    <h3>Vos solutions sont-elles personnalisables ?</h3>
+                    <p>Absolument ! Nous adaptons chaque solution aux spécificités de votre entreprise et secteur d'activité.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>iNV LAB</h3>
+                    <p>Votre partenaire SaaS pour la transformation digitale sectorielle.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Liens Rapides</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="platform.html">Plateforme</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Solutions</h3>
+                    <ul class="footer-links">
+                        <li><a href="agriculture-saas.html">Agriculture</a></li>
+                        <li><a href="sante-saas.html">Santé</a></li>
+                        <li><a href="commerce-saas.html">Commerce</a></li>
+                        <li><a href="education-saas.html">Éducation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Douala, Cameroun</li>
+                        <li><i class="fas fa-envelope"></i> contact@invlab.cm</li>
+                        <li><i class="fas fa-phone"></i> +237 620 81 92 90</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 iNV LAB. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <style>
+        .contact-form {
+            margin-top: 2rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 15px;
+            background: rgba(5, 5, 16, 0.7);
+            border: 1px solid rgba(0, 247, 255, 0.2);
+            border-radius: 10px;
+            color: var(--light);
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 10px rgba(0, 247, 255, 0.2);
+        }
+        
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: #8a9aad;
+        }
+    </style>
+</body>
+</html>
